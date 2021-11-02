@@ -5,7 +5,7 @@ namespace Paksuco\DuskTimeTravel;
 use Illuminate\Support\Carbon;
 use Laravel\Dusk\Browser as DuskBrowser;
 
-class Browser extends DuskBrowser
+trait CanChangeDuskTime
 {
     /**
      * Travels to the specified time
